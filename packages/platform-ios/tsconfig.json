@@ -5,5 +5,9 @@
     "outDir": "build",
     "typeRoots": ["definitions"]
   },
-  "references": [{"path": "../tools"}, {"path": "../cli-types"}]
+  "references": [
+    {"path": "../tools"},
+    {"path": "../cli-types"},
+    {"path": "../platform-apple"}
+  ]
 }

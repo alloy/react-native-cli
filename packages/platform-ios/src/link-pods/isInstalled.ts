@@ -7,7 +7,7 @@
  */
 
 import readPodfile from './readPodfile';
-import getPodspecName from '../config/getPodspecName';
+import {getPodspecName} from '@react-native-community/cli-platform-apple';
 import {
   IOSProjectConfig,
   IOSDependencyConfig,

@@ -7,7 +7,7 @@
  */
 
 import {logger} from '@react-native-community/cli-tools';
-import getPodspecName from '../config/getPodspecName';
+import {getPodspecName} from '@react-native-community/cli-platform-apple';
 
 export default function addPodEntry(
   podLines: Array<string>,
